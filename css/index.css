@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* =============================== General Sytles =================================== */
+:root{
+    --color-bg:#1f1f38;
+    --color-bg-variant:#2c2c6c;
+    --color-primary:#4db5ff;
+    --color-primary-variant:rgba(77, 181, 255, 0.4);
+    --color-white:#fff;
+    --color-light:rgba(255, 255, 255, 0.6);
+
+    --transition:all 400ms ease ;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+} 
+
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-bg);
+    color:var(--color-white);
+    line-height: 1.7;
+}
+
+/* ============== GENERal styles ============= */
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+section {
+    margin-top: 8rem;
+}
+
+section > h2, section h5{
+    text-align: center;
+    color: var(--color-light);
+}
+
+section > h2{
+    color: var(--color-light);
+    margin-bottom: 3rem;
+}
+.header{
+    text-align: center;
+}
+.header> h1{
+    font-weight: 900;
+    margin-top: -0.5rem;
+}
+.header > h2{
+    font-weight: 600;
+    font-size: large;
+    margin-top: 1rem;
+}
+.header > h3{
+    color: var(--color-light);
+}
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn{
+    width: max-content;
+    display: inline-block;
+    color:var(--color-primary);
+    padding: 0.75rem 1.3rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    background: var(--color-primary);
+    color: var(--color-bg);
+    border: none;
+    margin: 0.5rem;
+    transition: var(--transition);
+}
+.btn:hover{
+    background: var(--color-white);
+}
+.btn:nth-child(1){
+    background: transparent;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+}
+.btn:nth-child(1):hover{
+    background: var(--color-white);
+    border: 1px solid var(--color-white);
+    color: black;
+}
+
+.Me{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 10rem;
+}
+.sociols{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-primary);
+    width: 10%;
+    position: relative;
+    margin-top: 5rem;
+    gap: 2rem;
+    cursor: pointer;
+}
+.body-Me{
+    background: linear-gradient(var(--color-primary), transparent);
+    border-radius: 20rem 20rem 0 0;
+    width: 22rem;
+    height: 26rem;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    margin-top: -5rem;
+}
+.scrol-down{
+    position: absolute;
+    right:  9.2rem;
+    bottom: 1rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.scrol-down a{
+    text-decoration: none;
+    color: var(--color-primary);
+}
+.about{
+    display: grid;
+    grid-template-columns: 25% 70%;
+    gap: 2rem;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.rightMe{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    background: var(--color-bg-variant);
+    border-radius: 0.5rem;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.card img{
+    width: 30%;
+}
+.card h3,h6{
+    color: var(--color-light);
+}
+.leftMe{
+    background:linear-gradient(45deg, var(--color-primary),transparent);
+    border-radius: 0.5rem;
+    /* height: 51.9vh; */
+}
+.leftMe img{
+    border-radius: 0.5rem;
+    transform: rotate(5deg);
+    transition: var(--transition);
+    cursor: pointer;
+    height: 100%;
+}
+.leftMe:hover img{
+    border-radius: 0.5rem;
+    transform: rotate(0deg);
+}
+.message p{
+margin: 2rem 0 2rem 0;
+}
