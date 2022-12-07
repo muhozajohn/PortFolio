@@ -133,6 +133,7 @@ img{
     gap: 2rem;
     cursor: pointer;
 }
+
 .body-Me{
     background: linear-gradient(var(--color-primary), transparent);
     border-radius: 20rem 20rem 0 0;
@@ -332,8 +333,99 @@ margin: 2rem 0 2rem 0;
     }
 }
 
-@media (max-width:200px) AND (min-width:600px) {
-    .class {
+@media screen AND (max-width: 600px) {
+    .container{
+        margin: 0 auto;
+        width: var(--container-width-sm);
+    }
+    .header{
+        text-align: center;
+        margin-bottom: 10rem;
+    }
+
+    .header> h1{
+        font-weight: 600;
+        margin-top: -0.5rem;
+    }
+    .sociols,.scrol-down{
         display: none;
     }
+    .about{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .message:nth-child(2){
+        text-align: center;
+    }
+    .body-Me{
+        grid-column: 1/-1;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .service{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .FrontEnd{
+     width: 100%;
+    }
+    .fontInfo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .info{
+        display: flex;
+        gap: 1rem;
+        color: var(--color-light);
+    }
+    .info img{
+        width: 23%;
+    }
+   
+}
+/* ============= slide==================*/
+.blog{
+    position: relative;
+    max-width: 80%;
+    height: 80vh;
+}
+.slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide-btn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    color: aqua;
+}
+.arrLeft{
+    left: 0;
+    top: 48%;
+}
+.arrRight{
+    right: 0;
+    top: 48%;
 }
