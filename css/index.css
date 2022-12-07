@@ -200,3 +200,130 @@ img{
 .message p{
 margin: 2rem 0 2rem 0;
 }
+.FrontEnd{
+    background: var(--color-bg-variant);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+.skills h2{
+    color: var(--color-primary);
+    text-align: center;
+}
+.fontInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-Container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.info-Container:nth-child(2){
+    margin-left: 10rem;
+}
+.info-Container h5{
+    margin-top: 1rem;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: var(--color-light);
+}
+.info img{
+    width: 20%;
+}
+.service{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.service-card{
+    background: var(--color-bg-variant);
+    height: 60vh;
+    border-radius: 0 0 0.5rem 0.5rem;
+    
+}
+.s-card{
+    display: grid;
+    place-content: center;
+    background: var(--color-primary);
+    height: 20%;
+    margin-bottom: 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    
+}
+.s-info{
+    padding: 1rem rem;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 1rem;
+}
+.s-info img{
+    width: 10%;
+}
+
+
+@media screen AND (max-width: 1024px){
+    .container{
+        margin: 0 auto;
+        width: var(--container-width-md);
+    }
+    .header{
+        text-align: center;
+        margin-bottom: 10rem;
+    }
+
+    .header> h1{
+        font-weight: 600;
+        margin-top: -0.5rem;
+    }
+    .sociols,.scrol-down{
+        display: none;
+    }
+    .about{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .message:nth-child(2){
+        text-align: center;
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .service{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .FrontEnd{
+     width: 93%;
+    }
+    .fontInfo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .info{
+        display: flex;
+        /* align-items: center; */
+        gap: 1rem;
+        color: var(--color-light);
+    }
+    .info img{
+        width: 23%;
+    }
+}
