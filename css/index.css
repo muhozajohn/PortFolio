@@ -247,7 +247,8 @@ margin: 2rem 0 2rem 0;
 }
 .service-card{
     background: var(--color-bg-variant);
-    height: 60vh;
+    height: 90%;
+    margin-bottom: 10rem;
     border-radius: 0 0 0.5rem 0.5rem;
     
 }
@@ -261,7 +262,6 @@ margin: 2rem 0 2rem 0;
     
 }
 .s-info{
-    padding: 1rem rem;
     display: flex;
     gap: 1rem;
     padding: 1rem 1rem;
@@ -303,6 +303,11 @@ margin: 2rem 0 2rem 0;
     }
     .body-Me{
         grid-column: 1/-1;
+        border-radius: 50rem 50rem 0 0;
+        margin-top: 5rem;
+        width: 100%;
+        height: 90%;
+        margin-bottom: 1rem;
     }
     .skills {
         display: flex;
@@ -331,6 +336,19 @@ margin: 2rem 0 2rem 0;
     .info img{
         width: 23%;
     }
+    .s-info img{
+        width: 5%;
+    }
+    .s-info{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    place-content: center;
+    gap: 1rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
 }
 
 @media screen AND (max-width: 600px) {
@@ -365,6 +383,7 @@ margin: 2rem 0 2rem 0;
     }
     .body-Me{
         grid-column: 1/-1;
+        margin-top: 3rem;
     }
     .skills {
         display: flex;
@@ -391,6 +410,9 @@ margin: 2rem 0 2rem 0;
     }
     .info img{
         width: 23%;
+    }
+    .s-info img{
+        width: 7%;
     }
    
 }
@@ -428,4 +450,42 @@ margin: 2rem 0 2rem 0;
 .arrRight{
     right: 0;
     top: 48%;
+}
+/* ============================== WebSites ========================== */
+.Web{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.web-card{
+    border-radius: 0.5rem;
+    background-color: var(--color-bg-variant);
+    padding: 1rem 2rem;
+}
+.web-card img{
+    border-radius: 0.5rem;
+}
+@media screen AND (max-width: 1024px) {
+    .container{
+        width: var(--container-width-md);
+        margin: 0 auto;
+    }
+    .Web{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    
+}
+@media screen AND (max-width: 600px) {
+    .container{
+        width: var(--container-width-sm);
+        margin: 0 auto;
+    }
+    .Web{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
 }
