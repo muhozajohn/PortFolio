@@ -783,12 +783,12 @@ textarea{
         margin-bottom: 2rem;
     }
     .msg{
-        margin: 0 auto;
+        /* margin: 0 auto; */
         width: 80%;
     }
     .contact-form{
         width: 80%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
     }
     
 }
