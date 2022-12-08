@@ -784,11 +784,13 @@ textarea{
     }
     .msg{
         /* margin: 0 auto; */
+        margin-left: 1.5rem;
         width: 80%;
     }
     .contact-form{
         width: 80%;
         /* margin: 0 auto; */
+        margin-left: 1.5rem;
     }
     
 }
