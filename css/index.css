@@ -771,7 +771,7 @@ textarea{
  
     
 }
-@media screen AND (max-width: 600px) {
+@media screen AND (max-width: 768px) {
     .container{
         width: var(--container-width-sm);
         margin: 0 auto;
