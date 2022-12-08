@@ -768,7 +768,7 @@ textarea{
     .container{
         width: var(--container-width-sm);
         margin: 0 auto;
-        padding: 0 2remcl;
+        padding: 0 2rem;
     }
     input,textarea{
         max-width: 100%;
