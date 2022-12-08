@@ -20,7 +20,7 @@
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-sm: 90%;
+    --container-width-sm: 100%;
 } 
 
 html {
@@ -768,6 +768,10 @@ textarea{
     .container{
         width: var(--container-width-sm);
         margin: 0 auto;
+        padding: 0 2remcl;
+    }
+    input,textarea{
+        max-width: 100%;
     }
     .contact{
         display: grid;
