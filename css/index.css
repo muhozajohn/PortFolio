@@ -761,11 +761,12 @@ textarea{
         gap: 1rem;
     }
     .msg{
-
-        width: 80%;
+        margin: 0 auto;
+        width: 85%;
     }
     .contact-form{
-        width: 80%;
+        width: 85%;
+        margin: 0 auto;
     }
  
     
