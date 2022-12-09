@@ -926,3 +926,33 @@ ul{
     }
     
 }
+/*  =================================== Blog ================================ */
+.Blog{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.blog-card-left,.blog-card-right{
+    flex-basis: 65%;
+}
+.Blog img{
+    border-radius: 0.5rem;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+.blog-icon img{
+    width: 2rem;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.blog-card-detailz{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog-card-d-p p{
+    color: var(--color-light);
+    font-size: small;
+}
