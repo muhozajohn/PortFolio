@@ -791,15 +791,16 @@ textarea{
     .container1{
         width: 100%;
         padding: 4rem;
-        /* background-color: #4db5ff; */
     }
     .msg{
         max-width: fit-content;
         width: 90%;
+        margin-left: 2px;
     }
     .contact-form{
         max-width: fit-content;
         width: 90%;
+        margin-left: 2px;
     }
     
 }
