@@ -625,7 +625,9 @@ margin: 2rem 0 2rem 0;
     justify-content: center;
     background: var(--color-bg-variant);
     border-radius: 0.5rem;
+    height:300px ;
     padding: 1rem 2rem;
+
 }
 .test-profile{
     width: 5rem;
@@ -657,6 +659,17 @@ margin: 2rem 0 2rem 0;
         overflow: hidden;
         width: 100%;
     }
+    .test-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: var(--color-bg-variant);
+        border-radius: 0.5rem;
+        height:300px ;
+        padding: 1rem 2rem;
+    
+    }
     
 }
 @media screen AND (max-width: 600px) {
@@ -680,6 +693,17 @@ margin: 2rem 0 2rem 0;
     .mySwiper{
         overflow: hidden;
         width: 100%;
+    }
+    .test-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: var(--color-bg-variant);
+        border-radius: 0.5rem;
+        height:300px ;
+        padding: 1rem 2rem;
+    
     }
     
 }@media screen AND (max-width: 200px) {
