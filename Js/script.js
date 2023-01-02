@@ -3,21 +3,14 @@
     const user = document.getElementById('user');
     const email = document.getElementById('email');
     const mesg = document.getElementById('msg');
-   
+
     
     
-    form.addEventListener('submit', e =>{
-        e.preventDefault();
-    
-        validatInputs();
-     
-    
-    });
-    const setError =(el,msg) =>{
+    const setError =(el,sms) =>{
         const inputControl = el.parentElement;
         const errorDisplay = inputControl.querySelector("#error");
-    
-        errorDisplay.innerText = msg;
+        
+        errorDisplay.innerText = sms;
         errorDisplay.classList.add("error");
         inputControl.classList.remove("success");
     }
@@ -30,7 +23,7 @@
         inputControl.classList.add("success");
         errorDisplay.classList.remove("error");
     }
-   const  checkEmail =(email)=> {
+    const  checkEmail =(email)=> {
         const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(String(email).toLowerCase());
     }
@@ -39,7 +32,7 @@
         const userValue = user.value.trim();
         const emailValue = email.value.trim();
         const msgValue = mesg.value.trim();
-    
+        
         if(userValue === ''){
             setError(user, "Username is Required*");
         }
@@ -62,9 +55,19 @@
             setSucc(email);
         }
         
-    
-    
+        
+        
     };
+
+    form.addEventListener('submit', (e) =>{
+        e.preventDefault();
+        console.log('cliked');
+    
+        validatInputs();
+    });
+
+
+
     // 
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
@@ -72,7 +75,7 @@
         // slidesPerView
         loop: true,
         pagination: {
-          el: ".swiper-pagination",
+            el: ".swiper-pagination",
           clickable: true,
         },
         navigation: {

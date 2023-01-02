@@ -222,16 +222,17 @@ margin: 2rem 0 2rem 0;
 .skills h2{
     color: var(--color-primary);
     text-align: center;
+    font-size: 20px;
 }
 .fontInfo{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* gap: 1rem; */
 }
 .info-Container{
     display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
+    
+    
 }
 .info-Container:nth-child(2){
     margin-left: 10rem;
@@ -359,8 +360,9 @@ margin: 2rem 0 2rem 0;
     width: 100%;
     margin: 0 auto;
     display: flex;
+    justify-content: flex-start;
     gap: 2rem;
-    place-content: center;
+    /* place-content: center; */
     gap: 1rem;
     padding: 1rem 1rem;
     text-align: center;
@@ -972,3 +974,6 @@ li a{
 .input-container.success textarea{
     border-color: #09c372;
 }
+
+
+
