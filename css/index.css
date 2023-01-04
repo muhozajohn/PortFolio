@@ -965,8 +965,11 @@ li a{
 }
 
 .input-container .error{
-    color: var(--color-light);
-    font-weight: 300;
+    color: red;
+    font-weight: 100;
+}
+.msgSuccess{
+    color: #09c372;
 }
 .input-container.success input{
     border-color: #09c372;
