@@ -552,6 +552,9 @@ margin: 2rem 0 2rem 0;
 .web-card img{
     border-radius: 0.5rem;
 }
+.web-card .buttons{
+    margin-bottom: 3rem;
+}
 @media screen AND (max-width: 1024px) {
     .container{
         width: var(--container-width-md);
