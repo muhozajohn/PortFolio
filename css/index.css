@@ -171,10 +171,12 @@ img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+    /* border: 1px solid red; */
 }
 .rightMe{
     display: flex;
     flex-direction: column;
+    /* border: 1px solid red; */
 }
 .card{
     background: var(--color-bg-variant);
