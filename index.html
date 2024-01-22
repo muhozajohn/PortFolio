@@ -16,8 +16,8 @@
         <h1>Muhoza John</h1>
         <h3>FullStacker Developer</h3>
         <div class="buttons">
-        <button class="btn btn-primary"> <a href="assets/MUHOZA John.pdf" download> Download Cv </</button>
-        <button class="btn"><a href="#contact"> Let's Talk</a></button>
+        <button class="btns btn-primary"> <a href="assets/MUHOZA John.pdf" download> Download Cv </</button>
+        <button class="btns"><a href="#contact"> Let's Talk</a></button>
         </div>
         
     </div>
@@ -161,7 +161,12 @@
               <article class='experience_details'>
                 <div class='experience_details_icon'><img src="/assets/check.png" /></div>
                 <div><h5>Python</h5>
-                <small class='text-light'> Experienced</small></div>
+                <small class='text-light'> Intermediate</small></div>
+              </article>
+              <article class='experience_details'>
+                <div class='experience_details_icon'><img src="/assets/check.png" /></div>
+                <div><h5>Laravel</h5>
+                <small class='text-light'> Intermediate</small></div>
               </article>
           
 
@@ -244,11 +249,13 @@
     <section>
         <h5>My latest News</h5>
         <h2>My Blog</h2>
-        <div class="container Blog">
-            <div class="blog-card-left"> <img src="assets/1512b3eb04dda6ec4463344edb2ffd10.png" alt="">   
-                <div class="blog-icon"><img src="assets/double-arrow (1).png" alt=""></div> 
-        </div>
-            <div class="blog-card"> <img src="assets/image_processing20220209-13661-106ixf9.png" alt="">  
+  <swiper-container class="mySwiper container" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+    <swiper-slide>
+        <div class="blog-card">
+            <div class="blog-img">
+                <img src="assets/Me.webp" alt="" class="iyi"> 
+            </div>  
                 <div class="blog-card-detailz">
                     <h6>Posted by Muhoza John</h6> <h4>04 Dec 2022</h4>
                 </div>
@@ -264,64 +271,117 @@
                     </p>
                 </div>
                 
-             </div>
-            <div class="blog-card-right"> <img src="assets/PORT2.png" alt="">  
-            <div class="blog-icon"><img src="assets/double-arrow.png" alt=""></div> 
-            </div>
         </div>
+    </swiper-slide>
+    <swiper-slide>
+        <div class="blog-card">
+             <div class="blog-img">
+                <img src="assets/code.jpg" alt="" class="iyi">  
+            </div> 
+                <div class="blog-card-detailz">
+                    <h6>Posted by Muhoza John</h6> <h4>04 Nov 2023</h4>
+                </div>
+                <div class="blog-card-d-p">
+                    <h4>Tainer at KLAB  program</h4>
+                    <p>
+               The learning environment at KLab BoatCamp is commendable. The facilities and support provided created a conducive space for effective training. The well-structured curriculum struck a balance between theory and practical application, offering participants a comprehensive learning experience.
 
+                    </p>
+                </div>
+                
+        </div>
+    </swiper-slide>
+  </swiper-container>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     </section>
     <section id="recent">
         <h5>My Recent Work</h5>
         <h2>Websites</h2>
         <div class="container Web">
             <div class="web-card">
-                <img src="assets/starwarz.png" alt="" height="70%">
-                <p>Project: StarWars Api's</p>
+                <div class="web-card-img">
+                    <img src="assets/proj6.png" alt="">
+                </div>
+                <div class="prox">
+                    <b>Project:</b>
+                    <p>Eaglespiritacademy</p>
+                </div>
                 <div class="buttons">
-                    <a href="https://github.com/muhozajohn/FetchingAPI" target="_blank"><button class="btn btn-primary">Github</button></a>
-                    <a href="https://fetchingapii.netlify.app" target="_blank"><button class="btn">Live Demo</button></a>
+                    <a href="https://eaglespiritacademy.rw/" target="_blank"><button class="btn">Live Demo</button></a>
+                </div>
+            </div>
+            <div class="web-card">
+                 <div class="web-card-img">
+                    <img src="assets/proj7.png" alt="">
+                </div>
+                <div class="prox">
+                    <b>Project:</b>
+                    <p>Bissfulsmoothies</p>
+                </div>
+                <div class="buttons">
+                    <a href="https://blissfulsmoothies.vercel.app" target="_blank"><button class="btn">Live Demo</button></a>
+                </div>
+            </div>
+            <div class="web-card">
+               <div class="web-card-img">
+                    <img src="assets/proj4.png" alt="">
+                </div>
+                 <div class="prox">
+                    <b>Project:</b>
+                    <p>Budgie</p>
+                </div>
+                <div class="buttons">
+                    <a href="https://budgierw.vercel.app/" target="_blank"><button class="btn">Live Demo</button></a>
                     </div>
             </div>
             <div class="web-card">
-                <img src="assets/calc.png" alt="" height="70%">
-                <p>Project: Simple Calculator</p>
+               <div class="web-card-img">
+                    <img src="assets/proj3.png" alt="">
+                </div>
+                 <div class="prox">
+                    <b>Project:</b>
+                    <p>MadeIn</p>
+                </div>
                 <div class="buttons">
-                    <a href="https://github.com/muhozajohn/calculatorJs" target="_blank"><button class="btn btn-primary">Github</button></a>
-                    <a href="https://ccalculator1.netlify.app" target="_blank"><button class="btn">Live Demo</button></a>
-                    </div>
+                    <a href="https://e-madeinrwanda.vercel.app/" target="_blank"><button class="btn">Live Demo</button></a>
+                </div>
             </div>
             <div class="web-card">
-                <img src="assets/klab.png" alt="" height="70%">
-                <p>Klab WebApp Challenge</p>
+               <div class="web-card-img">
+                    <img src="assets/proj2.png" alt="">
+                </div>
+                 <div class="prox">
+                    <b>Project:</b>
+                    <p>Saint Deals Blog</p>
+                </div>
                 <div class="buttons">
-                    <a href="https://github.com/muhozajohn/klab-challenge" target="_blank"><button class="btn btn-primary">Github</button></a>
-                    <a href="https://klabchallenge1.netlify.app" target="_blank"><button class="btn">Live Demo</button></a>
-                    </div>
+                    <a href="https://saint-deals-api.vercel.app/" target="_blank"><button class="btn">Live Demo</button></a>
+                </div>
             </div>
             <div class="web-card">
-                <img src="assets/project3.jpeg" alt="">
-                <p>Project: Computer SetUp</p>
+               <div class="web-card-img">
+                    <img src="assets/proj8.png" alt="">
+                </div>
+                 <div class="prox">
+                    <b>Project:</b>
+                    <p>Blog</p>
+                </div>
                 <div class="buttons">
-                    <button class="btn btn-primary">Github</button>
-                    <button class="btn">Live Demo</button>
-                    </div>
+                    <a href="https://zeusblog.vercel.app/" target="_blank"><button class="btn">Live Demo</button></a>
+                </div>
             </div>
             <div class="web-card">
-                <img src="assets/project4.jpg" alt="">
-                <p>Project: Data Analysit</p>
+               <div class="web-card-img">
+                    <img src="assets/proj5.png" alt="">
+                </div>
+                 <div class="prox">
+                    <b>Project:</b>
+                    <p>UniEase</p>
+                </div>
                 <div class="buttons">
-                    <button class="btn btn-primary">Github</button>
-                    <button class="btn">Live Demo</button>
-                    </div>
-            </div>
-            <div class="web-card">
-                <img src="assets/project1.jpg" alt="">
-                <p>Project: Managment Ideas</p>
-                <div class="buttons">
-                    <button class="btn btn-primary">Github</button>
-                    <button class="btn">Live Demo</button>
-                    </div>
+                    <a href="#" target="_blank"><button class="btn">Live Demo</button></a>
+                </div>
             </div>
         </div>
     </section>
@@ -358,24 +418,8 @@
                     <p>I dint't even nkow where to start as far as use of your App or how to reach you  </p>
                 </div>
             </div>
-            <div class="container testimonials swiper-slide">
-                <div class="test-card">
-                    <div class="test-profile">
-                        <img src="assets/unsplash.jpg" alt="">
-                    </div>
-                    <h3>Clemence Irera</h3>
-                    <p>Happy handwritten thank you notes… I just wanted to let you know that it's been great working with you.                </p>
-                </div>
-            </div>
-            <div class="container testimonials swiper-slide">
-                <div class="test-card">
-                    <div class="test-profile">
-                        <img src="assets/PXL_3.jpg" alt="">
-                    </div>
-                    <h3>Muhoza John</h3>
-                    <p>Just look at your Users Flow report in Google Analytics to see the top path through your website.   </p>
-                </div>
-            </div>
+        
+           
             
           </div>
           <div class="swiper-button-next nav-btn"></div>
@@ -416,7 +460,7 @@
   
           </div>
           <form action="" id="form">
-            <!-- <div class="msgSuccess">jjjjjjj</div> -->
+           
             <div class="input-container">
               <input type="text" name='name' placeholder='Full Name' id="user"/>
             <div class="error"></div>
