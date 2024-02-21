@@ -166,7 +166,7 @@ img {
 .scrol-down {
   position: absolute;
   right: 9.2rem;
-  bottom: 1rem;
+  top: calc(100vh - 30vh);
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
@@ -952,9 +952,7 @@ li a {
   flex-basis: 65%;
 }
 
-
 .iyi {
-
   height: 75vh !important;
   object-fit: cover !important;
 }
