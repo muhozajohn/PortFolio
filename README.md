@@ -1,42 +1,52 @@
-# Alight Coding Challenge
-[Access Hosted Web Here](https://alight-coding-challenge-google-clone.vercel.app/)
 
-![image](https://github.com/muhozajohn/Alight-Coding-Challenge/assets/87951014/cfc44928-c49c-415f-a7b6-12cddff7c42e)
+# John Muhoza's Portfolio
+
+Welcome to my professional portfolio repository. This repository showcases my skills and works as a Full-Stack Engineer and UI/UX Designer.
+
+## About Me
+
+I am John Muhoza, a Full-Stack Engineer and UI/UX Designer based in Kigali City, Rwanda. I have a diverse background in software development, web design, and user experience. I am passionate about creating seamless and impactful digital experiences.
+
+## Technologies Used
+
+- React
+- Redux
+- Tailwind CSS
+- Node.js
 
 
-## Overview
-This project is part of the Alight Coding Challenge, which consists of two parts: a HackerRank test and a web development project. The web development project involves creating a clone of the Google front page using modern web development technologies.
+## Installation and Setup
 
-### Technologies Used
-- React: A JavaScript library for building user interfaces.
-- Redux: A predictable state container for JavaScript apps.
-- Tailwind CSS: A utility-first CSS framework for rapid UI development.
-- Random API: `https://randomuser.me/api` API is used to fetch random user data for the search functionality.
+To run the portfolio locally, follow these steps:
 
-### Installation Instructions
-To get started with the project,
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/muhozajohn/PortFolio.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd PortFolio
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
 
-follow these steps:
+## Contact
 
-### 1: Clone the repository:
+Feel free to reach out to me for any inquiries or collaboration opportunities:
 
-`git clone https://github.com/muhozajohn/Alight-Coding-Challenge.git
-cd Alight-Coding-Challenge`
-### 2: Install dependencies:
+- **Email**: muhozajohn4@gmail.com
+- **Phone**: +250 785161508
+- **Location**: Kigali City, Rwanda
 
-`npm install`
-### 3: Run the project:
+## License
 
-`npm start`
-### 4: Steps to Run the Project
-Clone the repository and navigate to the project directory.
-Install the required dependencies using npm install.
-Start the development server with npm start.
-Open your browser and navigate to http://localhost:3000 to see the Google front page clone in action.
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-### Features
-- Google Front Page Clone: A visual and functional clone of the Google homepage.
-- Search Functionality: Utilizes the randomuser.me API to fetch and display search results.
-- Responsive Design: Ensures compatibility across various devices including desktops, laptops, tablets, and smartphones.
-- Modern React Practices: Uses hooks and functional components.
+Thank you for visiting my portfolio. I look forward to connecting with you!
 
