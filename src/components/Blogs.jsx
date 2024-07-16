@@ -16,7 +16,7 @@ const Blogs = () => {
         <div className="grid grid-cols-1 md:grid-cols-2">
           <WorkCard
             image={images.paints}
-            name={`Arts Finder And Exhibition`}
+            name={`Klab assistant Facilitator`}
             type={`#Website`}
           />
         </div>
