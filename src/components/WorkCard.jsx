@@ -1,8 +1,8 @@
 import CustomButton from "./CustomButton";
 
-const WorkCard = ({ image, name, type }) => {
+const WorkCard = ({ image, name, type, link, isExternal }) => {
   return (
-    <div className="p-2 flex flex-col gap-2 bg-color-primary-variant rounded-md">
+    <div className="p-2 flex flex-col gap-2 bg-color-primary-variant break-inside-avoid rounded-md">
       <div className="rounded-md flex justify-center items-center">
         <img
           className="rounded-md h-full w-full object-cover"
@@ -11,14 +11,16 @@ const WorkCard = ({ image, name, type }) => {
         />
       </div>
       <div>
-        <p className="text-slate-200 text-xs font-semibold ">{name}</p>
+        <p className="text-slate-200 text-xs font-semibold">{name}</p>
         {type && (
-          <p className="text-color-light text-xs font-medium ">{type}</p>
+          <p className="text-color-light text-xs font-medium">{type}</p>
         )}
       </div>
       <CustomButton
-        title={`Live Demo`}
-        otherStyles={`!text-xs !text-color-light`}
+        link={link}
+        isExternal={isExternal}
+        title="Live Demo"
+        otherStyles="!text-xs !text-color-light"
       />
     </div>
   );
