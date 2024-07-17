@@ -8,7 +8,7 @@ const NavBar = () => {
     setIsDay(!isDay);
   };
   return (
-    <div className="flex justify-between items-center min-h-24 ">
+    <div className="flex justify-between items-center sticky top-0 md:relative md:top-0 shadow-md md:shadow-none z-50 bg-color-bg-variant md:bg-inherit  min-h-24 ">
       <div className="flex flex-col leading-none">
         <h1 className="text-2xl font-bold text-color-light ">John Muhoza</h1>
         <span className="text-xs text-color-light">Full-Stack Engineer</span>
