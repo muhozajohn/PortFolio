@@ -11,6 +11,7 @@ const UI_UX = () => {
         type={`#Website #MobileApp`}
         link={`https://hovastore-support.netlify.app/`}
         isExternal={true}
+        isButton={true}
       />
     </div>
   );

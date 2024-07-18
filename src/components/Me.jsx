@@ -5,6 +5,7 @@ import SocialMediaIcons from "./SocialMediaIcons";
 import { MdOutlineFileDownload } from "react-icons/md";
 
 const Me = () => {
+
   return (
     <div className="w-full relative flex flex-col gap-6 h-full justify-center items-center pb-3  ">
       <div
@@ -32,11 +33,13 @@ const Me = () => {
         </small>
         <SocialMediaIcons />
         <Adddress />
-        <CustomButton
-          otherStyles={`!rounded-3xl text-color-light hover:!text-color-white `}
-          icon={<MdOutlineFileDownload className="text-2xl font-semibold" />}
-          title={`DownloadCv`}
-        />
+        <a href={images.cv} download>
+          <CustomButton
+            otherStyles={`!rounded-3xl !w-full text-color-light hover:!text-color-white `}
+            icon={<MdOutlineFileDownload className="text-2xl font-semibold" />}
+            title={`DownloadCv`}
+          />
+        </a>
       </div>
     </div>
   );

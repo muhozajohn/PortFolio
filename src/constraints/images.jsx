@@ -6,13 +6,16 @@ import deals from "../assets/Deals.png";
 import eagleSprit from "../assets/eagleSprit.png";
 import univeEase from "../assets/UniveEase.png";
 import HovaStore from "../assets/HovaStore.png";
+import hova from "../assets/hova.jpg";
 import music from "../assets/musicDifusion.png";
 import picDoctor from "../assets/PickDoctor.png";
 import shaka from "../assets/shaka.png";
 import wpf from "../assets/wpf.png";
+import cv from "../assets/JohnMuhoza_Cv.pdf";
 
 const images = {
   Me,
+  hova,
   paints,
   artFinder,
   Bissfulsmoothies,
@@ -24,6 +27,7 @@ const images = {
   picDoctor,
   shaka,
   wpf,
+  cv,
 };
 
 export default images;

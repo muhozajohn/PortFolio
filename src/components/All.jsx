@@ -10,6 +10,7 @@ const All = () => {
         type={`#Website`}
         link={`https://musicdiffusion.netlify.app/`}
         isExternal={true}
+        isButton={true}
       />
       <WorkCard
         image={images.artFinder}
@@ -17,6 +18,7 @@ const All = () => {
         type={`#Website`}
         link={`https://artfinderandexhibition.netlify.app/`}
         isExternal={true}
+        isButton={true}
       />
       <WorkCard
         image={images.shaka}
@@ -24,6 +26,7 @@ const All = () => {
         type={`#Website`}
         link={`https://www.shaka.rw/`}
         isExternal={true}
+        isButton={true}
       />
       <WorkCard
         image={images.HovaStore}
@@ -31,6 +34,7 @@ const All = () => {
         type={`#Website #MobileApp`}
         link={`https://hovastore-support.netlify.app/`}
         isExternal={true}
+        isButton={true}
       />
       <WorkCard
         image={images.wpf}
@@ -38,6 +42,7 @@ const All = () => {
         type={`#Website`}
         link={`https://womenprogressfamily.netlify.app/`}
         isExternal={true}
+        isButton={true}
       />
       <WorkCard
         image={images.univeEase}
@@ -45,6 +50,7 @@ const All = () => {
         type={`#Website`}
         link={`https://univease.netlify.app/`}
         isExternal={true}
+        isButton={true}
       />
       <WorkCard
         image={images.Bissfulsmoothies}
@@ -52,6 +58,7 @@ const All = () => {
         type={`#Website`}
         link={`https://blissfulsmoothies.vercel.app/`}
         isExternal={true}
+        isButton={true}
       />
       <WorkCard
         image={images.picDoctor}
@@ -59,12 +66,14 @@ const All = () => {
         type={`#Website`}
         link={`https://pickdoctor.vercel.app/`}
         isExternal={true}
+        isButton={true}
       />
       <WorkCard
         image={images.deals}
         name={`Saint Blog`}
         link={`https://saintdeals.vercel.app/`}
         isExternal={true}
+        isButton={true}
         type={`#Website`}
       />
     </div>
