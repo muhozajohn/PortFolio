@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import searchReducers from "./features/search/searchSlice";
+import contactReducers from "./features/contact/contactSlice";
 
 const store = configureStore({
     reducer: {
-        search: searchReducers,
+        contact: contactReducers,
     },
 });
 
