@@ -13,10 +13,10 @@ const FormField = ({
   }) => {
     return (
       <div className="flex flex-col gap-2 w-full group">
-        <h1 className="text-sm font-medium">{label}</h1>
+        <h1 className="text-sm font-medium text-color-light">{label}</h1>
         {type === "input" ? (
           <div
-            className={`${style} relative text-primary bg-inherit  duration-100 outline-none justify-between flex items-center gap-6 px-2  w-full rounded-md font-semibold border-2 border-color-light group-hover:border-color-primary-variant`}
+            className={`${style} relative text-color-light bg-inherit  duration-100 outline-none justify-between flex items-center gap-6 px-2  w-full rounded-md font-semibold border-2 border-color-light group-hover:border-color-primary-variant`}
           >
             {icon && <p>{icon}</p>}
   

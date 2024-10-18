@@ -11,6 +11,7 @@ import {
   selectcontactLoading,
   selectcontactError,
 } from "../features/contact/contactSlice";
+import { notifyError, notifySuccess } from "../utils/Notification";
 const Contact = () => {
   const dispatch = useDispatch();
   const loading = useSelector(selectcontactLoading);
@@ -28,7 +29,9 @@ const Contact = () => {
         const resultAction = await dispatch(createContact(values));
         unwrapResult(resultAction);
         formik.resetForm();
+        notifySuccess("Message sent!!")
       } catch (error) {
+        notifyError(error)
         console.error("Failed to submit contact form", error);
       } finally {
         setSubmitting(false);
