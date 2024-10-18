@@ -38,14 +38,6 @@ const Resume = () => {
               course={`Software Development`}
               school={`Bulinga TVET School`}
             />
-            <Cards
-              startingDate={`2014`}
-              endingDate={`2016`}
-              level={`O level Certificates`}
-              dashed={`dash`}
-              course={`O level Course`}
-              school={`Kagitumba High School`}
-            />
           </div>
           <div className="flex flex-col gap-3">
             <Cards
