@@ -51,7 +51,7 @@ const Contact = () => {
           <p className="text-base text-color-light ">
             I'm always open to discussing <br />{" "}
             <span className="text-lg font-semibold">
-              Full-Stack Development or UI/UX Design Projects and Partnerships.
+            Full-Stack Engineer, UI/UX & Mobile App Design Projects and Partnerships.
             </span>
           </p>
 
