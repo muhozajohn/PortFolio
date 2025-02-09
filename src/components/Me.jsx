@@ -24,7 +24,7 @@ const Me = () => {
         <h1 className="text-2xl text-center text-color-light font-black text-nowrap ">
           John Muhoza
         </h1>
-        <p className=" text-sm md:text-base text-color-light font-bold p-2  rounded-md text-center ">
+        <p className=" text-sm md:text-sm text-nowrap text-color-light font-bold p-2  rounded-md text-center ">
           Full-Stack Engineer, Mobile App
         </p>
         <small className="text-xs text-center -mt-4 text-color-light">
