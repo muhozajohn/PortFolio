@@ -5,7 +5,7 @@ Welcome to my professional portfolio repository. This repository showcases my sk
 
 ## About Me
 
-I am John Muhoza, a Full-Stack Engineer and UI/UX Designer based in Kigali City, Rwanda. I have a diverse background in software development, web design, and user experience. I am passionate about creating seamless and impactful digital experiences.
+I am John Muhoza, a Full-Stack Engineer and UI/UX Designer based in Kigali City, Rwanda. I have a diverse background in software development, web design, mobile app and user experience. I am passionate about creating seamless and impactful digital experiences.
 
 ## Technologies Used
 
