@@ -15,16 +15,16 @@ const About = () => {
           <div className="p-0.5 w-1/3 bg-slate-300"></div>
         </div>
         <p className="text-base text-color-light">
-          I'm a Full-Stack Engineer and UI/UX Designer from Kigali City, Rwanda.
-          I have a strong sense of ownership and expertise in both frontend and
-          backend technologies. My outstanding communication and teamwork
-          abilities enable me to collaborate effectively with diverse teams.
-          Passionate about continuous learning, I quickly adapt to new
-          technological advancements.
+          As a Full-Stack Engineer, UI/UX, and Mobile App Designer from Kigali
+          City, Rwanda, I have a strong sense of ownership and expertise in
+          frontend, backend, and mobile technologies. My outstanding
+          communication and teamwork abilities enable me to collaborate
+          effectively with diverse teams. Passionate about continuous learning,
+          I quickly adapt to new technological advancements.
         </p>
         <p className="text-base text-color-light">
           My skills and dedication drive me to create innovative solutions and
-          exceptional user experiences.
+          exceptional user experiences across web and mobile platforms.
         </p>
         <div className="mt-2  flex flex-col gap-3">
           <h2 className=" text-lg md:text-xl font-medium text-slate-300">
